@@ -9,7 +9,7 @@ public class CarMovement : MonoBehaviour
 
     private void Update()
     {
-        var position = transform.position;
+        var position = gameObject.transform.position;
         
         var step = _speed * Time.deltaTime;
         
