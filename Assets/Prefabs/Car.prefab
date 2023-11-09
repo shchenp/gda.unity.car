@@ -46,6 +46,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5052650929445512377}
+  - component: {fileID: 8121363328913535258}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -70,6 +71,19 @@ Transform:
   - {fileID: 7398398434624340117}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &8121363328913535258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2305744656801700808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63f8544beb74b2459d7a9bed1c636bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 10
 --- !u!1 &2609696327772802792
 GameObject:
   m_ObjectHideFlags: 0
